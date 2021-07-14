@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    background-color: burlywood;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+div {
+    margin-top: 15px;
+}
+
+img {
+    width: 520px;
+    height: 380px;
+}
+
+.row::after {
+    content:"";
+    display: table;
+    justify-content: center;
+}
+
+p {
+    font-size: 15px;
+}
+
+.column {
+    float:left;
+    width:39%;
+    margin-left: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: white;
+}
